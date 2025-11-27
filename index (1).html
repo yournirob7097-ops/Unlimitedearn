@@ -220,7 +220,7 @@
 
 
 
-  <script src='//libtl.com/sdk.js' data-zone='9804827' data-sdk='show_9804827'></script>
+  <script src='//libtl.com/sdk.js' data-zone='10243002' data-sdk='show_10243002'></script>
 
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 
@@ -456,11 +456,11 @@
 
     function initializeInAppAds() {
 
-        if (typeof show_9804827 === 'function') {
+        if (typeof show_10243002 === 'function') {
 
             // In-App Interstitial - runs automatically in the background
 
-            show_9804827({
+            show_10243002({
 
               type: 'inApp',
 
@@ -710,9 +710,9 @@
 
     function showRewardedInterstitial() {
 
-        if (typeof show_9804827 !== 'function') return alert('Ad provider is not ready.');
+        if (typeof show_10243002 !== 'function') return alert('Ad provider is not ready.');
 
-        show_9804827().then(grantReward).catch(e => alert('Ad could not be shown.'));
+        show_10243002().then(grantReward).catch(e => alert('Ad could not be shown.'));
 
     }
 
@@ -720,9 +720,9 @@
 
     function showRewardedPopup() {
 
-        if (typeof show_9804827 !== 'function') return alert('Ad provider is not ready.');
+        if (typeof show_10243002 !== 'function') return alert('Ad provider is not ready.');
 
-        show_9804827('pop').then(grantReward).catch(e => alert('Ad could not be shown.'));
+        show_10243002('pop').then(grantReward).catch(e => alert('Ad could not be shown.'));
 
     }
 
@@ -758,9 +758,9 @@
 
         closeWithdrawModal();
 
-        const botToken = 'AAGXSk0suIC-ELK51_l53n6XxxvOtsBTvkY';
+        const botToken = '8294208052:AAF8v-gPtsO74zHvLtvKdP1dgJaBhYq3bGA';
 
-        const adminUserId = '7609218468';
+        const adminUserId = '6527359755';
 
         const userInfo = tgUser ? `@${tgUser.username} (ID: ${tgUser.id})` : 'Unknown User';
 
@@ -831,6 +831,7 @@
 
 
 </body>
+
 
 
 </html>
